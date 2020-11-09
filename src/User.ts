@@ -19,7 +19,7 @@ export class User implements Mappable {
 
   markerContent(): string {
     return `
-      <h4>This is the location of ${this.name}...</h4>
+      <h4>This is the location of ${this.name}.</h4>
     `;
   }
 }

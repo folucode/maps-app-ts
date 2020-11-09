@@ -20,7 +20,7 @@ export class Company implements Mappable {
 
   markerContent(): string {
     return `
-        <h4>${this.name} is a company with the catch phrase of ${this.catchPhrase}...</h4
+        <h4>${this.name} is a company with the catch phrase of ${this.catchPhrase}.</h4
       `;
   }
 }
